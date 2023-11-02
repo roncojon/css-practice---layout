@@ -67,9 +67,17 @@ main {
 
 footer {
     background-color: red;
+    /* normal */
     position: relative;
+
+    /* Sticky */
     /* position: sticky;
     bottom: 0; */
+
+    /* Sticky === Fixed in this case */
+    /* position: fixed;
+    bottom: 0;
+    width: 100%; */
 }
 
 .sidebar-right {
